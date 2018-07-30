@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-center;
+    align-content: center;
+ }
+ 
+ .pixel,
+ .paletteDiv {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 2px;
+ }
+ 
+ input {
+    padding: 5px;
+    width: 270px;
+    margin-bottom: 20px;
+    background-color: rgb(226, 223, 223);
+    transition-duration: 4s;
+ }
+ 
+ input:hover {
+    background-color: green;
+ }
+ 
+ .pixel:hover,
+ .paletteDiv:hover {
+    outline: 4px solid red;
+ }
+ 
+ #canvas section {
+    display: flex;
+ }
+ 
+ .paletteDiv {
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+ 
+ #paletteContainer {
+    display: inline-flex;
+ }
+ 
+ .selected {
+    outline: 4px solid red;
+ }
